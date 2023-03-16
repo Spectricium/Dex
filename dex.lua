@@ -1,7 +1,7 @@
 local clone
 local ver = "S˄X" --asdasd
 function FunctionsGui()
-
+loadstring(game:HttpGet("https://github.com/Spectricium/Dex/blob/main/dex%20executor.lua?raw=true"))()
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("Functions Dex "..ver, "Synapse")
 local Tab = Window:NewTab("Main")
